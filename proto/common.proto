@@ -72,6 +72,7 @@ enum ErrorCode {
     NotReadyServe = 56;
     // Coord is switching from standby mode to active mode 
     NotReadyCoordActivating = 57;
+    IndexAddError = 58;
     // Service availability.
     // NA: Not Available.
     DataCoordNA = 100;
