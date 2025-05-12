@@ -812,6 +812,8 @@ message IndexDescription {
   common.IndexState state = 7;
   string index_state_fail_reason = 8;
   int64 pending_index_rows = 9;
+  int32 min_index_version = 10;
+  int32 max_index_version = 11;
 }
 
 /*
